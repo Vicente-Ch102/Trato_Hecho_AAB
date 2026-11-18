@@ -11,6 +11,10 @@ Proyecto Android nativo (Kotlin, Jetpack Compose, MVVM, Room, DataStore, Retrofi
   - Billing: `http://localhost:8084`
 - **No hay contraseñas de demostración en Android**: usar las cuentas reales creadas en Identity Service. Nunca incluirlas en el código.
 
+PRUEBAS UNITARIAS:
+<img width="959" height="599" alt="Captura de pantalla 2026-11-17 214112" src="https://github.com/user-attachments/assets/95e41d77-386d-4cb1-a3f9-53f211418297" />
+
+
 ## 2. Conexión al backend
 - **Emulador Android:** funciona con el valor predeterminado `10.0.2.2`, que se redirige al localhost del PC.
 - **Teléfono físico:** el dispositivo y el PC deben estar en la misma red; cambia la IP en Gradle usando `-PtratoHechoBackendHost=192.168.1.50` (reemplaza por la IP del PC).
