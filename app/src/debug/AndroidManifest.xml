@@ -1,0 +1,4 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- SOLO debug: el backend local de Docker usa HTTP sin TLS. -->
+    <application android:usesCleartextTraffic="true" />
+</manifest>
